@@ -1,0 +1,20 @@
+@import './font-faces';
+@import "./vendor/clean-blog";
+@import "./vendor/swiper";
+@import "./lib/menu";
+@import "./lib/navigation";
+@import "./lib/swiper-custom";
+
+
+/* HP Course specific custom styles (by Brian) */
+
+
+#content {display: none;}
+[data-completed="true"]:before {
+    font-family: 'FontAwesome';
+    content: '\f00c';
+    padding-right: 5px;
+}
+ul.list-style-none {
+  list-style-type: none;
+}

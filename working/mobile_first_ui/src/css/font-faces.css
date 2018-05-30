@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../__webfonts/glyphicons-3.3.7/glyphicons-halflings-regular.eot');
+  src: url('../__webfonts/glyphicons-3.3.7/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../__webfonts/glyphicons-3.3.7/glyphicons-halflings-regular.woff2') format('woff2'), url('../__webfonts/glyphicons-3.3.7/glyphicons-halflings-regular.woff') format('woff'), url('../__webfonts/glyphicons-3.3.7/glyphicons-halflings-regular.ttf') format('truetype'), url('../__webfonts/glyphicons-3.3.7/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../__webfonts/font-awesome/fontawesome-webfont.eot');
+  src: url('../__webfonts/font-awesome/fontawesome-webfont.eot?#iefix&v=4.6.3') format('embedded-opentype'), url('../__webfonts/font-awesome/fontawesome-webfont.woff2') format('woff2'), url('../__webfonts/font-awesome/fontawesome-webfont.woff') format('woff'), url('../__webfonts/font-awesome/fontawesome-webfont.ttf') format('truetype'), url('../__webfonts/font-awesome/fontawesome-webfont.svg#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,47 @@
+{
+  "name": "mobile_first_ui",
+  "version": "1.0.0",
+  "description": "### What is this repository for? ###",
+  "main": "src/js/index.js",
+  "config": {
+    "buildpath": "../../mobile_first_ui"
+  },
+  "scripts": {
+    "test": "tape-watch -r babel-register -1 test/*.test.js",
+    "test:browser": "browserify test/browser/* -t [ babelify --presets [ es2015 ] ] | tap-closer | smokestack | tap-diff",
+    "watch": "nodemon --watch src --watch img",
+    "sync": "gulp browser-sync",
+    "bundle": "gulp bundle",
+    "presync": "npm run gulpsetup",
+    "prebundle": "npm run gulpsetup",
+    "gulpsetup": "npm-run-all clean-dist copy-files copy-webfonts-temp",
+    "validate": "npm-run-all --parallel validate-webpack:* lint test build",
+    "validate-webpack:dev": "webpack-validator webpack.config.js --env.dev",
+    "validate-webpack:prod": "webpack-validator webpack.config.js --env.prod",
+    "clean-dist": "rimraf $npm_package_config_buildpath",
+    "copy-files": "cpy src/manifest.json img/favicon/favicon.ico $npm_package_config_buildpath",
+    "fresh": "rm -rf node_modules && npm i",
+    "copy-images": "cp -R img $npm_package_config_buildpath",
+    "copy-webfonts-temp": "cp -R ../../__webfonts $npm_package_config_buildpath",
+    "clean-and-copy": "npm-run-all clean-dist copy-files copy-webfonts-temp copy-images postcss",
+    "prestart": "npm run gulpsetup",
+    "start": "gulp browser-sync",
+    "prebuild": "npm run clean-and-copy",
+    "prebuild:prod": "npm run clean-and-copy",
+    "build": "webpack --env.dev",
+    "build:prod": "webpack --env.prod -p",
+    "lint": "eslint .",
+    "postcss": "postcss -c postcss.config.json -o $npm_package_config_buildpath/app.css src/css/index.css"
+  },
+  "dependencies": {
+    "bootstrap": "3.3.7",
+    "bootstrap-less": "^3.3.8",
+    "hucklebuck": "git+ssh://git@github.com/phoenix-scitent/hucklebuck.git#master",
+    "jquery-confirm": "3.3.2",
+    "messaging": "git+ssh://git@github.com/phoenix-scitent/messaging.git#latest",
+    "nanobar": "^0.4.2",
+    "partybus": "git+ssh://git@github.com/phoenix-scitent/partybus.git#latest"
+  },
+  "author": "",
+  "license": "ISC"
+}

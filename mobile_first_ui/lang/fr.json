@@ -1,0 +1,51 @@
+{
+  "global": {
+    "close": "Fermer",
+    "menu": {
+      "translate": "Intl",
+      "where-downloadable-resources-live": "C'est là que les ressources téléchargeables vivront pour chaque cours.",
+      "where-downloadable-resources-live-desc": "L'utilisateur pourra y accéder à tout moment tout en travaillant à travers son cours. \n\n ",
+      "course-sections": "Sections du cours",
+      "sections-short": "Sections du cours",
+      "course-introduction": "Section 1: Introduction au cours",
+      "review-question-1": "Question d'examen 1",
+      "review-question-2": "Question d'examen 2",
+      "review-question-3": "Question d'examen 3",
+      "review-question-4": "Question d'examen 4",
+      "how-do-we-form-a-clot": "Section 2: Comment former un caillot?",
+      "lab-testing": "Section 3: Tests de laboratoire",
+      "lab-testing-cont": "Section 4: Tests de laboratoire (cont)",
+      "medications-enhancing-coag": "Section 5: Médicaments améliorant l'anticoagulation et la coagulation",
+      "management": "Section 6: La gestion",
+      "resources-short": "Ressources",
+      "menu": "Le Menu",
+      "top": "Sommet",
+      "toggle-navigation": "Basculer Navigation",
+      "congratulations": "Félicitations à vous"
+    },
+    "feedback-here": "Commentaires",
+    "continue-btn": "Continuer"
+  },
+  "anticoag_introduction": {
+    "hello-from-mentor": "Bonjour, je suis votre mentor et je vous aiderai à travers ce cours en fournissant des conseils utiles et des informations qui vous aideront à préparer votre session de travail.",
+    "title": "Anticoagulation et coagulation",
+    "learning-objectives": "Objectifs d'apprentissage",
+    "briefly-discuss-mechanisms": "Discutez brièvement des mécanismes de l'hémostase",
+    "coagulation-tests-lab-monitoring": "Tests de coagulation et de laboratoire"
+  },
+  "anticoag_boards_role_in_quality": {
+
+  },
+  "anticoag_how_form_clot": {
+
+  },
+  "anticoag_congratulations": {
+
+  },
+  "404": {
+
+  },
+  "500": {
+
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "global": {
+    "close": "блізка",
+    "menu": {
+      "translate": "Intl",
+      "where-downloadable-resources-live": "Dies IST, чюо herunterladbare für Jeden Рэсурсы Kurs цу Leben.",
+      "where-downloadable-resources-live-desc": "Карыстач зможа атрымаць да іх доступ у любы час падчас працы праз іх курс. \n\n ",
+      "course-sections": "раздзелы курса",
+      "sections-short": "раздзелы курса",
+      "course-introduction": "раздзел 1: Ўвядзенне ў курс",
+      "review-question-1": "агляд Пытанне 1",
+      "review-question-2": "агляд Пытанне 2",
+      "review-question-3": "агляд Пытанне 3",
+      "review-question-4": "агляд Пытанне 4",
+      "how-do-we-form-a-clot": "раздзел 2: Як мы фарміруем згустку?",
+      "lab-testing": "раздзел 3: лабараторыя тэставання",
+      "lab-testing-cont": "раздзел 4: лабараторыя тэставання (cont)",
+      "medications-enhancing-coag": "раздзел 5: Лекавыя прэпараты і ўзмацненні антикоагул каагуляцыя",
+      "management": "раздзел 6: кіраванне",
+      "resources-short": "рэсурсы",
+      "menu": "меню",
+      "top": "топ",
+      "toggle-navigation": "пераключэнне навігацыі",
+      "congratulations": "віншую"
+    },
+    "feedback-here": "Зваротная сувязь тут",
+    "continue-btn": "працягваць"
+  },
+  "anticoag_introduction": {
+    "hello-from-mentor": "Добры дзень! Я ваш настаўнік і я буду дапамагаць вам у гэтым курсе, падаючы карысныя парады і інфармацыю, якія дапамогуць вам у падрыхтоўцы для рук-на сесіі.",
+    "title": "Антыкаагулянтаў і каагуляцыя",
+    "learning-objectives": "мэты навучання",
+    "briefly-discuss-mechanisms": "Коратка абмеркаваць механізмы гемастазу",
+    "coagulation-tests-lab-monitoring": "Каагуляцыя выпрабаванні і маніторынг лабараторыі"
+  },
+  "anticoag_boards_role_in_quality": {
+
+  },
+  "anticoag_how_form_clot": {
+
+  },
+  "anticoag_congratulations": {
+
+  },
+  "404": {
+
+  },
+  "500": {
+
+  }
+}

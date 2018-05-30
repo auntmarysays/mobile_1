@@ -1,0 +1,23 @@
+<script>
+  var scripts = ['app.js']; // script for all users
+  var newBrowser = (
+    'fetch' in window &&
+    'Promise' in window &&
+    'assign' in Object &&
+    'keys' in Object
+  );
+  if (!newBrowser) {
+    scripts.unshift('polyfills.js'); // script for the less fortunate
+  }
+  scripts.forEach(function(src) {
+    var scriptEl = document.createElement('script');
+    scriptEl.src = src;
+    scriptEl.async = false;
+    scriptEl['data-cfasync'] = false;
+    document.head.appendChild(scriptEl);
+  });
+</script>
+
+<script>
+	WebFontConfig={google:{families:['Open Sans:400','Lora:400,700,400italic']}},function(o){var e=o.createElement('script'),t=o.scripts[0];e.src='https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js',e.async='true',t.parentNode.insertBefore(e,t)}(document);
+</script>

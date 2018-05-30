@@ -1,0 +1,7 @@
+coverage/
+node_modules/
+dist/
+webpack.config.js
+js/
+vendor/
+src/index.html

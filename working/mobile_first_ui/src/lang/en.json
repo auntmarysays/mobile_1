@@ -1,0 +1,51 @@
+{
+  "global": {
+    "close": "Close",
+    "menu": {
+      "translate": "Intl",
+      "where-downloadable-resources-live": "This is **where** downloadable ***resources*** will live for each course.",
+      "where-downloadable-resources-live-desc": "The user will be able to access these at any time while working through their course. \n\n ",
+      "course-sections": "Course Sections",
+      "sections-menu": "Course Sections",
+      "course-introduction": "Section 1: Course Introduction",
+      "review-question-1": "Review Question 1",
+      "review-question-2": "Review Question 2",
+      "review-question-3": "Review Question 3",
+      "review-question-4": "Review Question 4",
+      "how-do-we-form-a-clot": "Section 2: How Do We Form A Clot?",
+      "lab-testing": "Section 3: Lab Testing",
+      "lab-testing-cont": "Section 4: Lab Testing (cont)",
+      "medications-enhancing-coag": "Section 5: Medications Enhancing Anticoagulation and Coagulation",
+      "management": "Section 6: Management",
+      "resources-short": "Resources",
+      "menu": "Menu",
+      "top": "Top",
+      "toggle-navigation": "Toggle Navigation",
+      "congratulations": "Congratulations"
+    },
+    "feedback-here": "Feedback here",
+    "continue-btn": "Continue"
+  },
+  "anticoag_introduction": {
+    "hello-from-mentor": "Hello! I am your mentor and I will be helping you through this course by providing helpful tips and information that will assist you in preparing for your hands-on session.",
+    "title": "Anticoagulation & Coagulation",
+    "learning-objectives": "Learning objectives",
+    "briefly-discuss-mechanisms": "Briefly discuss mechanisms of hemostasis",
+    "coagulation-tests-lab-monitoring": "Coagulation tests and lab monitoring"
+  },
+  "anticoag_boards_role_in_quality": {
+
+  },
+  "anticoag_how_form_clot": {
+
+  },
+  "anticoag_congratulations": {
+
+  },
+  "404": {
+
+  },
+  "500": {
+
+  }
+}

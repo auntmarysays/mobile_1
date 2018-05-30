@@ -1,0 +1,51 @@
+{
+  "global": {
+    "close": "Schließen",
+    "menu": {
+      "translate": "Intl",
+      "where-downloadable-resources-live": "Dies ist, wo herunterladbare Ressourcen für jeden Kurs zu leben.",
+      "where-downloadable-resources-live-desc": "Der Benutzer kann jederzeit darauf zugreifen, während er durch seinen Kurs arbeitet. \n\n ",
+      "course-sections": "Kursabschnitte",
+      "sections-short": "Kursabschnitte",
+      "course-introduction": "Abschnitt 1: Kurs Einführung",
+      "review-question-1": "Überprüfung Frage 1",
+      "review-question-2": "Überprüfung Frage 2",
+      "review-question-3": "Überprüfung Frage 3",
+      "review-question-4": "Überprüfung Frage 4",
+      "how-do-we-form-a-clot": "Abschnitt 2: Wie bilden wir ein Gerinnsel?",
+      "lab-testing": "Abschnitt 3: Labortests",
+      "lab-testing-cont": "Abschnitt 4: Labortests (cont)",
+      "medications-enhancing-coag": "Abschnitt 5: Medikamente zur Verbesserung der Antikoagulation und Koagulation",
+      "management": "Abschnitt 6: Management",
+      "resources-short": "Ressourcen",
+      "menu": "Menü",
+      "top": "Oben",
+      "toggle-navigation": "Umschalten der Navigation",
+      "congratulations": "Herzliche Glückwünsche"
+    },
+    "feedback-here": "Feedback hier",
+    "continue-btn": "Fortsetzen"
+  },
+  "anticoag_introduction": {
+    "hello-from-mentor": "Hallo! Ich bin Ihr Mentor und ich werde Ihnen durch diesen Kurs helfen, indem Sie hilfreiche Tipps und Informationen, die Sie bei der Vorbereitung für Ihre praktische Sitzung unterstützen wird.",
+    "title": "Antikoagulation und Koagulation",
+    "learning-objectives": "Lernziele",
+    "briefly-discuss-mechanisms": "Kurz diskutieren Mechanismen der Hämostase",
+    "coagulation-tests-lab-monitoring": "Koagulationstests und Laborüberwachung"
+  },
+  "anticoag_boards_role_in_quality": {
+
+  },
+  "anticoag_how_form_clot": {
+
+  },
+  "anticoag_congratulations": {
+
+  },
+  "404": {
+
+  },
+  "500": {
+
+  }
+}

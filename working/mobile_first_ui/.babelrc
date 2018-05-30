@@ -1,0 +1,12 @@
+{
+  "presets": [
+    "es2017"
+  ],
+  "env": {
+    "test": {
+      "plugins": [
+        ["__coverage__", {"ignore": "*.test.*"}]
+      ]
+    }
+  }
+}

@@ -1,0 +1,53 @@
+#menu{
+  max-width: 500px;
+  background-color: #fff !important;
+}
+.modal-dialog{
+  max-width: 100%;
+}
+.fixed-bottom {
+position: fixed;
+right: 0;
+left: 0;
+z-index: 1030;
+background: rgba(255, 255, 255, 0.83);
+}
+@media (min-width: 768px) {
+.fixed-bottom {
+  border-radius: 0;
+}
+}
+.fixed-bottom {
+bottom: 0;
+margin-bottom: 0;
+border-width: 1px 0 0;
+}
+.next{
+float: right;
+}
+.back{
+float: right;
+}
+.menu{
+float: left;
+}
+
+.btn {
+  white-space: normal;
+}
+.btn-default{
+  border: none;
+  /* color: #fff; */
+  background-color: transparent;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-right: 10px;
+
+}
+.btn-default:hover{
+  border: none;
+  /* color: #c1c1c1; */
+  background-color: transparent;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
